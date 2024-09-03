@@ -24,7 +24,7 @@ def analyze_faturamento(data):
     return min_faturamento, max_faturamento, days_above_average
 
 # Carregar dados do JSON
-data = load_data_from_json("../target/3/faturamento.json")
+data = load_data_from_json("../target/3/dados.json")
 
 # Analisar faturamento
 min_faturamento, max_faturamento, days_above_average = analyze_faturamento(data)
